@@ -1,0 +1,20 @@
+# Python Dependencies - NetGraph Provisioner Backend
+# All versions selected to have pre-built wheels for Windows (no Rust needed)
+
+# Web Framework
+fastapi==0.100.0
+uvicorn==0.23.0
+
+# ArangoDB Driver
+python-arango==7.7.0
+requests==2.31.0
+
+# Environment Variables
+python-dotenv==1.0.0
+
+# CORS Support
+python-multipart==0.0.6
+
+# Optional: Testing
+pytest==7.4.0
+httpx==0.24.1
